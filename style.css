@@ -5,7 +5,7 @@ body {
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	margin: 0;
 	background-color: white; /* For browsers that do not support gradients */
-	background-image: linear-gradient(#FF4747, #FFFFFF);
+	background-image: linear-gradient(#FF4747, #FFFFFF, #FFFFFF);
 }
 
 img {
@@ -49,5 +49,21 @@ img {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
-	margin-top: 20%;
+	margin-top: 18%;
+}
+
+footer {
+	background: #979797;
+	border-radius: 5px 5px 0px 0px; 
+}
+
+.bottomText {
+	grid-area: 2 / 1 / 2 / 3;
+	font-size: 50%;
+}
+
+.bottomLink {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%
 }
